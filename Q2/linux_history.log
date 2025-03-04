@@ -1,0 +1,27 @@
+    1  cd ~
+    2  mkdir ~/Q2
+    3  python -m venv ~/Q2
+    4  python3 -m venv ~/Q2
+    5  sudo apt update
+    6  sudo apt install python3-venv -y
+    7  python3 -m venv ~/Q2
+    8  source ~/Q2_ENV/bin/activate
+    9  source ~/Q2/bin/activate
+   10  pip install numpy 
+   11  mkdir Q2
+   12  mkdir Ques2
+   13  cp py1.py Ques2/
+   14  ls -1
+   15  find ~/ -name py1.py 2>/dev/null
+   16  cp /home/tamara/Linux_Course_Work/CODE/py1.py Ques2/
+   17  chmod +x Q2/py1.py
+   18  chmod +r Q2/py1.py
+   19  chmod +w Q2/py1.py
+   20  ls -1 Ques2/
+   21  chmod +x Ques2/py1.py
+   22  chmod +r Ques2/py1.py
+   23  chmod +w Ques2/py1.py
+   24  python Ques2/py1.py > Ques2/q2_output.txt
+   25  pip freeze > Ques2/requirements.txt
+   26  python Ques2/py1.py --new-values >> Ques2/q2_output.txt
+   27  history > Ques2/linux_history.log

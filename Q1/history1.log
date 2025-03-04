@@ -1,0 +1,43 @@
+    1  cd ~
+    2  mkdir Linux_Course_Work && cd Linux_Course_Work
+    3  git init
+    4  echo "Tamara Karam, 322965419" > .myid
+    5  git add .myid
+    6  git commit -m "START"
+    7  git config --global user.email "tamarak6601@gmail.com"
+    8  git config --global user.name "tamarakaram"
+    9  git commit -m "START" 
+   10  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P  
+   11  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P .
+   12  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P
+   13  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P .
+   14  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P  
+   15  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P .
+   16  clear
+   17  wget https://github.com/Telhai/Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz -P .
+   18  clear
+   19  wget https://github.com/Telhai-Git/LIN -P .
+   20  wget https://github.com/Telhai-Git/LINUX_COURSE_WORK/archive/refs/tags/downloads.tar.gz 
+   21  tar -xzvf downloads.tar.gz -C DOWNLOADS
+   22  tar -xzvf downloads.tar.gz -C DOWNLOADS 
+   23  mkdir DOWNLOADS
+   24  tar -xzvf downloads.tar.gz -C DOWNLOADS 
+   25  rm downloads.tar.gz
+   26  git add .
+   27  git commit -m "Downloaded and Extracted Files"
+   28  mkdir DATA CODE
+   29  ep DOWNLOADS/*.py CODE/
+   30  cp DOWNLOADS/*.py CODE/ 
+   31  cp DOWNLOADS/LINUX_COURSE_WORK-downloads/*.py CODE/ 
+   32  cp DOWNLOADS/*.{txt,jpg,csv} DATA/
+   33  cp DOWNLOADS/LINUX_COURSE_WORK-downloads/*.{txt,jpg,csv} DATA/
+   34  git checkout -b question_1
+   35  mkdir Q1
+   36  echo "Time: $(date)" > Q1/q1_output.txt
+   37  echo "USER DETAILS: $(grep $(whoami) /etc/passwd)" >> Q1/q1_output.txt
+   38  echo "REPO: $(pwd)" >> Q1/q1_output.txt
+   39  echo "BRANCH: $(git branch --show-current)" >> Q1/q1_output.txt
+   40  echo "VERSIONID: $(grep VERSION_ID /etc/os-release | cut -d'=' -f2)" >> Q1/q1_output.txt
+   41  echo "-------------------------------------------" >> Q1/q1_output.txt
+   42  ls -R >> Q1/q1_output.txt
+   43  history > Q1/history1.log
